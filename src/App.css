@@ -1,0 +1,26 @@
+body {
+  background-color: hsla(0, 0%, 0%, 0.815);
+}
+
+.Spheading{
+  color: aquamarine;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 35px;
+  color: black;
+}
